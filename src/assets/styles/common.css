@@ -1,0 +1,245 @@
+.navbar-outer {
+    display: flex;
+    gap: 2rem;
+    background-image: linear-gradient(to right top, #a23535, #c25a23, #d08700, #c9b900, #a8eb12);
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.axois-logo {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-items {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+/* Home CSS */
+
+.home-welcome {
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* Dashboard CSS */
+.App {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  .user-table {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.edit {
+    background-color: blue;
+    color: white;
+  }
+  
+  button.delete {
+    background-color: red;
+    color: white;
+  }
+  
+  button.update {
+    background-color: green;
+    color: white;
+  }
+
+
+button.edit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  button.edit:hover {
+    background-color: #0056b3;
+  }
+  
+  button.delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.delete:hover {
+    background-color: #c82333;
+  }
+
+  .dashboard-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 3rem;
+  }
+
+  .add-user-btn {
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 30px !important    ;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-user-btn:hover {
+    background-color: darkgreen;
+  }
+
+
+
+
+  /* Modal CSS */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+  }
+  
+  .modal.show {
+    display: block;
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  /* Create User CSS */
+
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff;
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
